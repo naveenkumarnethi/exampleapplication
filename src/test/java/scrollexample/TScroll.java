@@ -14,7 +14,8 @@ public class TScroll {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		driver.manage().window().maximize();
 		js.executeScript("window.scrollBy(0,1000)");
-		
+		System.out.println("before changed"); 
+		System.out.println("before changed"); 
 	}
 
 }
