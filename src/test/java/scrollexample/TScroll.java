@@ -16,7 +16,7 @@ public class TScroll {
 		js.executeScript("window.scrollBy(0,1000)");
 		System.out.println("before changed"); 
 		System.out.println("before changed"); 
-		System.out.println("hello");
+		System.out.println("hello  hyd");
 	}
 
 }
