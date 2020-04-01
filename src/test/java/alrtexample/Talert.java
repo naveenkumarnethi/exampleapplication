@@ -13,6 +13,7 @@ public class Talert {
 	System.setProperty("webdriver.chrome.driver", "E:\\Documents\\driver\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	driver.get("http://demo.guru99.com/test/delete_customer.php");
+	System.out.println("asd");
 	String a = driver.findElement(By.xpath("/html/body/form/table/tbody/tr[2]/td[1]")).getText();
 	System.out.println(a);
 	driver.findElement(By.name("cusid")).sendKeys("asdf");
